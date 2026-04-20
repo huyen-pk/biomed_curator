@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "skills": {
+    "biomedical-search": {
+      "source": "yorkeccak/scientific-skills",
+      "sourceType": "github",
+      "computedHash": "929b1327655e8570d800f93b49000189a33623009b04044c1aebe67ef8e845ef"
+    },
+    "deep-research-agent": {
+      "source": "qodex-ai/ai-agent-skills",
+      "sourceType": "github",
+      "computedHash": "3521d632c7c7832814da9d51d9788244da4be5db2c10eea1636796d57688034c"
+    },
+    "medical-research": {
+      "source": "gexijin/vibe",
+      "sourceType": "github",
+      "computedHash": "947b02d7827e2ba6ae994d42eea2b42d34249a3d41fd81a586ff4150f5ba777d"
+    },
+    "senior-computer-vision": {
+      "source": "davila7/claude-code-templates",
+      "sourceType": "github",
+      "computedHash": "ed6a0397c362e1a36ceae95c34636a028c2f450daa0a632e24381a0955f73f29"
+    },
+    "senior-data-scientist": {
+      "source": "davila7/claude-code-templates",
+      "sourceType": "github",
+      "computedHash": "95d92329998ee2d8956dbf9a917d1d978578e1643a84a09b42f2f66e28780524"
+    }
+  }
+}

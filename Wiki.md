@@ -1,0 +1,107 @@
+# Research Papers Wiki
+
+> A comprehensive offline knowledge base synthesizing **~240 research papers** across neuroscience, deep learning, medical AI, generative modeling, and more. Each topic page provides key ideas, breakthrough findings, and connections to related fields.
+
+---
+
+## Table of Contents
+
+### I. [Foundational Deep Learning](wiki/01-foundational-deep-learning.md)
+  - [Convolutional Networks & Image Recognition](wiki/01-foundational-deep-learning.md#convolutional-networks--image-recognition)
+  - [Transformers & Attention Mechanisms](wiki/01-foundational-deep-learning.md#transformers--attention-mechanisms)
+  - [Residual Learning & Efficient Architectures](wiki/01-foundational-deep-learning.md#residual-learning--efficient-architectures)
+  - [Neural Implicit Representations (NeRF, SIREN)](wiki/01-foundational-deep-learning.md#neural-implicit-representations-nerf-siren)
+
+### II. [Generative Models & Density Estimation](wiki/02-generative-models.md)
+  - [Variational Autoencoders (VAEs)](wiki/02-generative-models.md#variational-autoencoders-vaes)
+  - [Diffusion Models](wiki/02-generative-models.md#diffusion-models)
+  - [Normalizing Flows](wiki/02-generative-models.md#normalizing-flows)
+  - [GFlowNets & Combinatorial Generation](wiki/02-generative-models.md#gflownets--combinatorial-generation)
+  - [Energy-Based Models & OOD Detection](wiki/02-generative-models.md#energy-based-models--ood-detection)
+
+### III. [Bayesian Inference, Uncertainty & Probabilistic ML](wiki/03-bayesian-uncertainty.md)
+  - [Bayesian Foundations](wiki/03-bayesian-uncertainty.md#bayesian-foundations)
+  - [Variational Inference Methods](wiki/03-bayesian-uncertainty.md#variational-inference-methods)
+  - [Uncertainty Quantification in Deep Learning](wiki/03-bayesian-uncertainty.md#uncertainty-quantification-in-deep-learning)
+  - [Conformal Prediction & Calibration](wiki/03-bayesian-uncertainty.md#conformal-prediction--calibration)
+
+### IV. [Graph Neural Networks & Relational Learning](wiki/04-graph-neural-networks.md)
+  - [GNN Foundations & Expressiveness](wiki/04-graph-neural-networks.md#gnn-foundations--expressiveness)
+  - [GNNs for Time Series & Dynamical Systems](wiki/04-graph-neural-networks.md#gnns-for-time-series--dynamical-systems)
+  - [GNNs in Biology & Neuroscience](wiki/04-graph-neural-networks.md#gnns-in-biology--neuroscience)
+
+### V. [Physics-Informed ML & Scientific Computing](wiki/05-physics-informed-ml.md)
+  - [Physics-Informed Neural Networks (PINNs)](wiki/05-physics-informed-ml.md#physics-informed-neural-networks-pinns)
+  - [Neural Operators & PDE Solvers](wiki/05-physics-informed-ml.md#neural-operators--pde-solvers)
+  - [Neural Differential Equations](wiki/05-physics-informed-ml.md#neural-differential-equations)
+  - [Data-Driven Dynamical Systems](wiki/05-physics-informed-ml.md#data-driven-dynamical-systems)
+
+### VI. [Neuroimaging: Acquisition, Preprocessing & Pipelines](wiki/06-neuroimaging-pipelines.md)
+  - [MRI Physics & Data Formats](wiki/06-neuroimaging-pipelines.md#mri-physics--data-formats)
+  - [FreeSurfer & Cortical Surface Analysis](wiki/06-neuroimaging-pipelines.md#freesurfer--cortical-surface-analysis)
+  - [SPM & Statistical Neuroimaging](wiki/06-neuroimaging-pipelines.md#spm--statistical-neuroimaging)
+  - [Deep Learning Neuroimaging Pipelines](wiki/06-neuroimaging-pipelines.md#deep-learning-neuroimaging-pipelines)
+
+### VII. [Brain Segmentation & Lesion Detection](wiki/07-brain-segmentation.md)
+  - [Whole-Brain Segmentation](wiki/07-brain-segmentation.md#whole-brain-segmentation)
+  - [Brain Tumor Detection & Segmentation](wiki/07-brain-segmentation.md#brain-tumor-detection--segmentation)
+  - [Stroke & Ischemic Lesion Segmentation](wiki/07-brain-segmentation.md#stroke--ischemic-lesion-segmentation)
+  - [Anomaly Detection in Brain Imaging](wiki/07-brain-segmentation.md#anomaly-detection-in-brain-imaging)
+
+### VIII. [Normative Modeling & Brain Morphometry](wiki/08-normative-modeling.md)
+  - [Normative Modeling Frameworks](wiki/08-normative-modeling.md#normative-modeling-frameworks)
+  - [Applications: Alzheimer's, Schizophrenia, ADHD](wiki/08-normative-modeling.md#applications-alzheimers-schizophrenia-adhd)
+  - [Brain Morphometry & Cortical Complexity](wiki/08-normative-modeling.md#brain-morphometry--cortical-complexity)
+
+### IX. [Neurodegenerative Disease & Alzheimer's Research](wiki/09-neurodegeneration.md)
+  - [Molecular Mechanisms: Prions, Amyloids, Mitochondria](wiki/09-neurodegeneration.md#molecular-mechanisms-prions-amyloids-mitochondria)
+  - [Biomarker Staging & Diagnosis](wiki/09-neurodegeneration.md#biomarker-staging--diagnosis)
+  - [Computational Brain Simulation](wiki/09-neurodegeneration.md#computational-brain-simulation)
+
+### X. [Medical Image Analysis & Clinical AI](wiki/10-medical-image-analysis.md)
+  - [Deep Learning for Medical Imaging (Reviews)](wiki/10-medical-image-analysis.md#deep-learning-for-medical-imaging-reviews)
+  - [Prostate Cancer Detection](wiki/10-medical-image-analysis.md#prostate-cancer-detection)
+  - [Domain Generalization & Transfer Learning](wiki/10-medical-image-analysis.md#domain-generalization--transfer-learning)
+  - [Cancer Symptom Prediction & Pharmacology](wiki/10-medical-image-analysis.md#cancer-symptom-prediction--pharmacology)
+
+### XI. [Federated Learning & Privacy-Preserving ML](wiki/11-federated-learning.md)
+  - [Federated Learning Frameworks](wiki/11-federated-learning.md#federated-learning-frameworks)
+  - [Secure Aggregation & SMPC](wiki/11-federated-learning.md#secure-aggregation--smpc)
+  - [Privacy Attacks & Defenses](wiki/11-federated-learning.md#privacy-attacks--defenses)
+  - [Blockchain-Based Federated Learning](wiki/11-federated-learning.md#blockchain-based-federated-learning)
+
+### XII. [Large Language Models & Reasoning](wiki/12-llm-reasoning.md)
+  - [LLM Architectures](wiki/12-llm-reasoning.md#llm-architectures)
+  - [Chain-of-Thought & Prompting](wiki/12-llm-reasoning.md#chain-of-thought--prompting)
+  - [AI Safety & Adversarial Attacks](wiki/12-llm-reasoning.md#ai-safety--adversarial-attacks)
+  - [Multimodal Foundation Models](wiki/12-llm-reasoning.md#multimodal-foundation-models)
+
+### XIII. [Immunology, mRNA & Molecular Biology](wiki/13-immunology-molecular.md)
+  - [Immune Response & Vaccines](wiki/13-immunology-molecular.md#immune-response--vaccines)
+  - [RNA Biology & Therapeutics](wiki/13-immunology-molecular.md#rna-biology--therapeutics)
+  - [Protein Structure & Drug Discovery](wiki/13-immunology-molecular.md#protein-structure--drug-discovery)
+  - [Nanotechnology & Biosynthesis](wiki/13-immunology-molecular.md#nanotechnology--biosynthesis)
+
+### XIV. [Optimization, RL & Scientific Discovery](wiki/14-optimization-rl.md)
+  - [Reinforcement Learning](wiki/14-optimization-rl.md#reinforcement-learning)
+  - [Combinatorial Optimization](wiki/14-optimization-rl.md#combinatorial-optimization)
+  - [Symbolic Regression & Interpretable ML](wiki/14-optimization-rl.md#symbolic-regression--interpretable-ml)
+  - [AI for Scientific Discovery](wiki/14-optimization-rl.md#ai-for-scientific-discovery)
+
+### XV. [Distributed Systems & Infrastructure](wiki/15-distributed-systems.md)
+
+---
+
+### Cross-Topic Intersections
+
+- [Deep Learning × Neuroimaging](wiki/intersection-dl-neuroimaging.md) — How transformers, diffusion models, and normative modeling reshape brain science
+- [Generative Models × Drug Discovery & Molecular Design](wiki/intersection-generative-molecules.md) — From VAEs to GFlowNets for protein folding and chemical design
+- [Uncertainty Quantification × Clinical Decision-Making](wiki/intersection-uncertainty-clinical.md) — Bayesian methods, conformal prediction, and trustworthy medical AI
+- [Federated Learning × Healthcare](wiki/intersection-fl-healthcare.md) — Privacy-preserving distributed learning for medical data
+- [Physics-Informed ML × Brain Modeling](wiki/intersection-physics-brain.md) — Neural ODEs, PINNs, and computational neuroscience
+
+---
+
+*Generated April 2026.*
+
+
