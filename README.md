@@ -2,6 +2,8 @@
 
 > A comprehensive offline knowledge base synthesizing **~240 research papers** across neuroscience, deep learning, medical AI, generative modeling, and more. Each topic page provides key ideas, breakthrough findings, and connections to related fields.
 
+> ⚠️ **Warning:** Generated synthesis from curated documents. Download links might be wrong but you can generally find sources by searching for paper title + author + publication year.
+
 ---
 
 ## Table of Contents

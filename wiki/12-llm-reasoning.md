@@ -16,7 +16,7 @@
 - **DeepSeek-R1** — DeepSeek, 2025
   - *Key idea*: Reasoning-focused model trained with reinforcement learning to develop chain-of-thought reasoning. Shows emergent "aha moments" and self-verification behaviors.
   - *Significance*: Open-weight model matching o1-class reasoning capabilities. Demonstrated that RL can elicit structured reasoning from language models.
-  - 🔗 [Download](https://arxiv.org/abs/2501.12948)
+  - ⚠️ No verified link available
 
 - **DeepSeek LLM** — DeepSeek, 2024
   - *Key idea*: Scaling laws analysis for LLMs — data, model size, and compute scaling relationships. Established training recipes for efficient large-scale LLM training.
@@ -24,11 +24,11 @@
 
 - **SuperARC: Benchmark Framework for Superintelligence** — Espinosa et al., 2025
   - *Key idea*: Proposed evaluation benchmarks for superhuman AI capabilities — abstract reasoning, novel problem solving, and scientific discovery beyond human baselines.
-  - 🔗 [Download](https://arxiv.org/abs/2503.12345) *(search arXiv 2025)*
+  - 🔗 [Download](https://arxiv.org/abs/2503.16743)
 
 - **HyperCluster: Decentralized LLM Inference over Peer-to-Peer** — Jain et al., 2026
   - *Key idea*: Distributed LLM inference across heterogeneous peer-to-peer networks — model parallelism without centralized infrastructure. Handles dynamic node availability and varying hardware.
-  - 🔗 [Download](https://arxiv.org/abs/2602.00000) *(search arXiv 2026)*
+  - 🔗 [Download](https://openreview.net/forum?id=NJz796yuDX)
 
 ### Key Concepts
 - **Mixture-of-Experts** enables massive parameter counts with manageable compute by activating only relevant experts per token.
@@ -61,7 +61,7 @@
 
 - **Scientist AI** — Bengio, 2025
   - *Key idea*: Explores how AI could assist or replace aspects of the scientific process — hypothesis generation, experimental design, and theory synthesis. Discusses what makes scientific reasoning different from standard LLM reasoning.
-  - 🔗 [Download](https://arxiv.org/abs/2503.15678) *(search arXiv 2025)*
+  - 🔗 [Download](https://arxiv.org/abs/2502.15657)
 
 ### Key Concepts
 - **Chain-of-thought** showed that LLMs have latent reasoning capabilities that are only expressed through appropriate prompting.
@@ -90,7 +90,7 @@
 - **Debiasing Word Embeddings** — Bolukbasi et al., 2016
   - *Key idea*: Showed that word embeddings encode gender stereotypes (man:computer programmer :: woman:homemaker) and proposed post-hoc debiasing through projection onto a gender subspace.
   - *Breakthrough*: Highlighted that ML models amplify societal biases present in training data.
-  - 🔗 [Download](https://arxiv.org/abs/1607.06520)
+  - ⚠️ No verified link available
 
 ### Key Concepts
 - **Backdoor attacks** are particularly dangerous because they persist through fine-tuning and are invisible during normal usage.

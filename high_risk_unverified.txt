@@ -1,0 +1,45 @@
+HIGH-RISK PAPERS: No arXiv AND No DOI in extracted PDF metadata
+======================================================================
+These papers have wiki links that could NOT be independently verified
+from the PDF content. Links may be correct or fabricated.
+
+1. [Read] DeepSeek_R1.pdf
+   Title: DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
+   Wiki page: 12-llm-reasoning.md
+   Wiki entry: DeepSeek-R1
+
+2. [Read] Density estimation by dual ascent of log likelihood (invertible flows)_Tabak 2010.pdf
+   Title: Density Estimation by Dual Ascent of the Log-Likelihood
+   Author: Tabak & Vanden-Eijnden
+   Wiki page: 02-generative-models.md
+   Wiki entry: Density Estimation by Dual Ascent of the Log-Likelihood (Invertible Flows)
+
+3. [Read] Normative methods.pdf
+   Wiki page: 08-normative-modeling.md
+   Wiki entry: Normative Methods
+
+4. [Read] PRusiner - NEURODEGENERATIVE DISEASES AND PRIONS.pdf
+   Title: Neurodegenerative Diseases and Prions
+   Author: Prusiner
+   Wiki page: 09-neurodegeneration.md
+   Wiki entry: Neurodegenerative Diseases and Prions
+
+5. [To read] Active learning_Aggarwal 2014.pdf
+   Title: Active Learning: A Survey
+   Author: Aggarwal & Kong
+   Wiki page: 14-optimization-rl.md
+   Wiki entry: Active Learning
+
+6. [To read] Geometry in Medical Imaging_DICOM and NIFTI.pdf
+   Title: Geometry in Medical Imaging: DICOM and NIfTI
+   Wiki page: 06-neuroimaging-pipelines.md
+   Wiki entry: Geometry in Medical Imaging: DICOM and NIfTI
+   Wiki link: 🔗 [Download](https://nipy.org/nibabel/coordinate_system.html) *(reference documentation)*
+
+7. [To read] NIPS-2016-man-is-to-computer-programmer-as-woman-is-to-homemaker-debiasing-word-embeddings-Paper.pdf
+   Title: Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings
+   Author: Bolukbasi, Chang, Zou, Saligrama, Kalai
+   Wiki page: 12-llm-reasoning.md
+   Wiki entry: Debiasing Word Embeddings
+
+Total: 7 papers

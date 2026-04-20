@@ -18,7 +18,7 @@
 
 - **Statistical Challenges in Big Data Human Neuroimaging** — Smith et al., 2017
   - *Key idea*: Identified key statistical challenges in large neuroimaging studies (UK Biobank, HCP): multiple testing across millions of voxels, confound correction, cross-validation pitfalls, and the need for reproducible analysis pipelines.
-  - 🔗 [Download](https://doi.org/10.1016/j.neuron.2018.01.014)
+  - 🔗 [Download](https://doi.org/10.1016/j.neuron.2017.12.018)
 
 ### Key Concepts
 - **DICOM** stores metadata (patient info, scanner parameters) alongside image data; **NIfTI** is a simpler research format with a compact header.
@@ -54,11 +54,11 @@ FreeSurfer is the dominant software suite for automated cortical reconstruction,
 
 - **FastSurferLIT: Lesion Inpainting Tool for Whole-Brain MRI Segmentation** — Pollak et al., 2025
   - *Key idea*: Extended FastSurfer with lesion inpainting — fills lesion regions with synthetic healthy tissue before segmentation, preventing lesions from corrupting parcellation.
-  - 🔗 [Download](https://doi.org/10.1016/j.neuroimage.2025.120984) *(search NeuroImage 2025)*
+  - 🔗 [Download](https://doi.org/10.1162/imag_a_00446)
 
 - **LeAPP: A Lesion-Aware Automated Processing Framework** — Bey et al., 2023
   - *Key idea*: End-to-end pipeline for processing brains with lesions — lesion segmentation, inpainting, then standard FreeSurfer processing on the inpainted brain.
-  - 🔗 [Download](https://doi.org/10.1016/j.neuroimage.2023.120091) *(search NeuroImage 2023)*
+  - 🔗 [Download](https://doi.org/10.1002/hbm.26701)
 
 ### Key Concepts
 - FreeSurfer's **surface-based** approach (meshes) respects cortical folding geometry, unlike volumetric methods.
@@ -100,11 +100,11 @@ SPM (Statistical Parametric Mapping) is the other major neuroimaging analysis fr
 
 - **Deep Learning Applications in Magnetic Resonance Imaging** — Review
   - *Key idea*: Survey of DL for MRI — reconstruction, segmentation, registration, and quality assessment. Covers U-Nets, GANs for super-resolution, and self-supervised pretraining.
-  - 🔗 [Download](https://doi.org/10.1002/mrm.28000) *(search Magnetic Resonance in Medicine)*
+  - 🔗 [Download](https://doi.org/10.3390/diagnostics11122181)
 
 - **Deep Learning in MR Image Processing** — Review
   - *Key idea*: Covers DL for MRI processing — denoising, artifact removal, reconstruction from undersampled k-space, and motion correction.
-  - 🔗 [Download](https://doi.org/10.1002/jmri.27129) *(search JMRI)*
+  - 🔗 [Download](https://doi.org/10.13104/imri.2019.23.2.81)
 
 - **QuickNAT: CNN for Brain Segmentation** — Roy et al., 2019
   - *Key idea*: Fully convolutional network with dense connections and unpooling for fast whole-brain segmentation. Processes a brain in ~20 seconds vs. FreeSurfer's ~8 hours.
@@ -112,11 +112,11 @@ SPM (Statistical Parametric Mapping) is the other major neuroimaging analysis fr
 
 - **Deep Learning-Based Desikan-Killiany Parcellation Using Diffusion MRI** — Sadegheih et al., 2025
   - *Key idea*: Performed cortical parcellation directly from diffusion MRI (tractography) rather than structural T1w, using deep learning to map white matter connectivity patterns to cortical regions.
-  - 🔗 [Download](https://doi.org/10.1016/j.neuroimage.2025.121000) *(search NeuroImage 2025)*
+  - 🔗 [Download](https://arxiv.org/abs/2508.07815)
 
-- **Brain Data Augmentation** — Review/Methods
-  - *Key idea*: Techniques for augmenting neuroimaging data — spatial deformations, intensity transformations, synthetic generation, and mix-up strategies to combat small sample sizes.
-  - 🔗 [Download](https://arxiv.org/abs/2106.01375) *(search arXiv)*
+- **Data Augmentation for Brain-Tumor Segmentation: A Review** — Nalepa et al., 2019
+  - *Key idea*: Techniques for augmenting neuroimaging data — spatial deformations, intensity transformations, synthetic generation, and mix-up strategies to combat small sample sizes in brain tumor segmentation.
+  - 🔗 [Download](https://doi.org/10.3389/fncom.2019.00083)
 
 ### Key Concepts
 - Deep learning has **compressed neuroimaging processing times** from hours to seconds/minutes.

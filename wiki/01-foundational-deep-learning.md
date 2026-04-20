@@ -80,7 +80,7 @@ The transformer architecture has become the dominant paradigm across NLP, vision
   - *Breakthrough*: Enabled transformer-scale models for high-resolution inputs (weather prediction, scientific imaging).
   - 🔗 [Download](https://arxiv.org/abs/2111.13587)
 
-- **Performers: Fast Attention Via Positive Orthogonal Random Features** — Choromanski et al., 2022
+- **Performers: Fast Attention Via Positive Orthogonal Random Features** — Choromanski et al., 2021
   - *Key idea*: Approximates softmax attention using random feature maps (FAVOR+), reducing attention from O(N²) to O(N) in both time and memory.
   - 🔗 [Download](https://arxiv.org/abs/2009.14794)
 
@@ -140,7 +140,7 @@ Neural implicit representations encode continuous signals (3D scenes, images, au
 
 - **Neural Radiance Field in Medical Imaging: Challenges** — Wang et al., 2024
   - *Key idea*: Reviews NeRF adaptations for medical imaging — CT/MRI view synthesis, sparse-view reconstruction, and surgical scene understanding. Identifies key challenges: data scarcity, physical accuracy, and real-time rendering.
-  - 🔗 [Download](https://arxiv.org/abs/2404.07160)
+  - 🔗 [Download](https://arxiv.org/abs/2402.17797)
 
 - **Implicit Neural Representations with Periodic Activation Functions (SIREN)** — Sitzmann et al., 2020
   - *Key idea*: Used sine activations instead of ReLU to represent signals with their derivatives. Periodic activations are natural fits for signals with complex structure.

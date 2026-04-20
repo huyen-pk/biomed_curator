@@ -12,19 +12,19 @@ PINNs embed physical laws (PDEs) directly into the neural network loss function,
 
 - **PINN: A Review** — Ren et al., 2025
   - *Key idea*: Comprehensive review of PINN architectures, training strategies (adaptive weighting, curriculum learning), and applications across fluid dynamics, solid mechanics, heat transfer, and biomedical engineering.
-  - 🔗 [Download](https://arxiv.org/abs/2211.08064)
+  - 🔗 [Download](https://doi.org/10.3390/app15148092)
 
 - **Physics-Informed Neural Networks and Neural Operators for Parametric PDEs** — Zhang et al., 2025
   - *Key idea*: Compares PINNs (which solve one PDE instance at a time) with neural operators (which learn solution operators across parameter families). Neural operators amortize the cost of solving related PDEs.
-  - 🔗 [Download](https://arxiv.org/abs/2502.09120) *(search arXiv 2025)*
+  - 🔗 [Download](https://arxiv.org/abs/2511.04576)
 
 - **Using PINNs for Tumor Cell Growth Modeling** — Rodrigues et al., 2024
   - *Key idea*: Applied PINNs to solve reaction-diffusion equations modeling tumor growth, combining imaging data with mechanistic models to predict spatial tumor evolution.
-  - 🔗 [Download](https://doi.org/10.1016/j.compbiomed.2024.108240) *(search Comp Bio Med 2024)*
+  - 🔗 [Download](https://doi.org/10.3390/math12081195)
 
-- **Physics-Informed Machine Learning in Biomedical Engineering** — Ahmadi et al., 2025
+- **Physics-Informed Machine Learning in Biomedical Science and Engineering** — Ahmadi et al., 2025
   - *Key idea*: Survey of physics-informed ML in biomedical contexts — hemodynamics, cardiac mechanics, drug delivery, and neural dynamics. Shows how physics constraints reduce data requirements.
-  - 🔗 [Download](https://doi.org/10.1016/j.cmpb.2025.108400) *(search CMPB 2025)*
+  - 🔗 [Download](https://arxiv.org/abs/2510.05433)
 
 ### Key Concepts
 - PINNs add **PDE residual loss** to the standard data loss: the network is penalized for violating physical laws at collocation points.
@@ -41,7 +41,7 @@ Neural operators learn mappings between infinite-dimensional function spaces —
 
 - **DIMON: Learning Solution Operators of PDEs with Diffeomorphic Mapping** — Yin & Brody, 2024
   - *Key idea*: Combined neural operators with diffeomorphic coordinate transformations to handle complex geometries. The network learns in a canonical domain and maps solutions back to physical coordinates.
-  - 🔗 [Download](https://arxiv.org/abs/2402.00275) *(search ICLR 2024)*
+  - 🔗 [Download](https://arxiv.org/abs/2402.07250)
 
 - **AFNO: Adaptive Fourier Neural Operator** — Guibas et al., 2022
   - *Key idea*: Performed global token mixing in Fourier space, achieving O(N log N) complexity. Applied to weather prediction and turbulence modeling at high resolution.
@@ -105,7 +105,7 @@ Neural ODEs/CDEs/SDEs replace discrete neural network layers with continuous-tim
 
 - **Linking Dynamical Systems with Human Neuroimaging** — John et al., 2022
   - *Key idea*: Reviewed how dynamical systems theory (attractors, bifurcations, phase transitions) can be applied to neuroimaging data — modeling brain states, transitions, and neural stability.
-  - 🔗 [Download](https://doi.org/10.1016/j.neuroimage.2022.119041) *(search NeuroImage 2022)*
+  - 🔗 [Download](https://doi.org/10.1162/netn_a_00230)
 
 ### Key Concepts
 - **SINDy** is the "equation discovery" approach — finding sparse, interpretable differential equations from data.

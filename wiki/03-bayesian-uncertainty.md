@@ -81,7 +81,7 @@ Quantifying what a model doesn't know is critical for high-stakes applications l
 
 - **Deep Langevin Ensemble** — Wild et al., 2023
   - *Key idea*: Combined Langevin dynamics (SGLD) with ensembles to approximate the posterior predictive distribution. Each ensemble member explores the posterior via stochastic gradient Langevin dynamics.
-  - 🔗 [Download](https://arxiv.org/abs/2302.07760) *(search ICML 2023)*
+  - 🔗 [Download](https://arxiv.org/abs/2305.15027)
 
 - **Uncertainty Baselines** — Google, 2021
   - *Key idea*: Comprehensive benchmark of uncertainty methods (MC Dropout, ensembles, SNGP, heteroscedastic models) across tasks. Established standardized evaluation protocols.
@@ -89,7 +89,7 @@ Quantifying what a model doesn't know is critical for high-stakes applications l
 
 - **Uncertainty Quantification for ML in Healthcare: Survey** — Lopez et al., 2025
   - *Key idea*: Reviews UQ methods specifically for healthcare applications — clinical decision support, medical imaging, drug discovery. Identifies gaps between methodological research and clinical deployment.
-  - 🔗 [Download](https://arxiv.org/abs/2501.07690) *(search arXiv 2025)*
+  - 🔗 [Download](https://arxiv.org/abs/2505.02874)
 
 - **Normalizing Flow Ensembles for Rich Aleatoric and Epistemic Uncertainty** — Berry et al., 2023
   - *Key idea*: Used flow ensembles where each member learns the full conditional distribution (aleatoric) while inter-member disagreement captures epistemic uncertainty.

@@ -34,19 +34,19 @@
 
 - **Design-Bench: Benchmarks for Data-Driven Offline Model-Based Optimization** — Trabucco et al., 2022
   - *Key idea*: Standardized benchmarks for offline optimization — designing proteins, molecules, and materials using only static datasets without active experimentation. Tests how well models extrapolate beyond training data.
-  - 🔗 [Download](https://arxiv.org/abs/2202.01961)
+  - 🔗 [Download](https://arxiv.org/abs/2202.08450)
 
 - **Constraint Active Search for Multiobjective Design** — Malkomes et al., 2021
   - *Key idea*: Active learning for multi-objective optimization under constraints — efficiently finding the Pareto frontier of feasible designs by intelligently selecting which experiments to run.
-  - 🔗 [Download](https://arxiv.org/abs/2106.01342)
+  - 🔗 [Download](https://proceedings.mlr.press/v139/malkomes21a.html)
 
-- **Exploring Large Action Sets with Hyperspherical Embeddings** — Benada et al., 2025
-  - *Key idea*: Addressed the challenge of RL/optimization with enormous discrete action spaces by embedding actions on a hypersphere and using nearest-neighbor search for action selection.
-  - 🔗 [Download](https://arxiv.org/abs/2502.00000) *(search arXiv 2025)*
+- **Exploring Large Action Sets with Hyperspherical Embeddings** — Bendada et al., 2025
+  - *Key idea*: Addressed the challenge of RL/optimization with enormous discrete action spaces by embedding actions on a hypersphere and using von Mises-Fisher sampling for action exploration.
+  - 🔗 [Download](https://arxiv.org/abs/2507.00518)
 
 - **Active Learning** — Aggarwal et al., 2014
   - *Key idea*: Survey of active learning strategies — pool-based, stream-based, and query synthesis. The model selects which examples to label, minimizing annotation cost.
-  - 🔗 [Download](https://doi.org/10.1007/978-3-319-14142-8_10) *(search Springer)*
+  - ⚠️ No verified link available
 
 ### Key Concepts
 - **Offline optimization** (Design-Bench) is critical for science — you can't always run new experiments; you must design from existing data.
@@ -82,12 +82,12 @@
 
 - **Scientist AI** — Bengio, 2025
   - *Key idea*: Envisions AI systems that can perform the full scientific method — hypothesis generation, experimental design, data analysis, and theory revision. Discusses what's missing from current LLMs for genuine scientific reasoning.
-  - 🔗 [Download](https://arxiv.org/abs/2503.15678) *(search arXiv 2025)*
+  - 🔗 [Download](https://arxiv.org/abs/2502.15657)
 
 - **GFlowNets for AI-Driven Scientific Discovery** — Jain et al., 2023
   - *Key idea*: GFlowNets sample diverse high-reward candidates — ideal for scientific discovery where you want many promising hypotheses, not just the single best.
   - *(Also listed under Generative Models)*
-  - 🔗 [Download](https://arxiv.org/abs/2302.00615)
+  - 🔗 [Download](https://doi.org/10.1039/d3dd00002h)
 
 - **Data-Driven Science and Engineering** — Brunton & Kutz
   - *Key idea*: Textbook on the intersection of data science and physical science — dimensionality reduction, sparse sensing, dynamical systems, and machine learning for engineering.

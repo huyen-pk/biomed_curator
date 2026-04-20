@@ -11,16 +11,16 @@
 - **Long-Term Durability of Immune Response to mRNA COVID Vaccines**
   - *Key idea*: Studied antibody and T-cell responses over 6-12+ months after mRNA vaccination (Pfizer/Moderna). Showed that while antibody titers wane, memory B and T cell responses persist, providing durable protection against severe disease.
   - *Significance*: Established that mRNA vaccines generate long-lasting immunological memory despite declining antibody levels.
-  - 🔗 [Download](https://doi.org/10.1056/NEJMoa2110345) *(search NEJM)*
+  - 🔗 [Download](https://doi.org/10.1101/2021.10.13.21264957)
 
 - **Role of B Cells as Antigen-Presenting Cells**
   - *Key idea*: B cells serve dual roles — antibody production and antigen presentation to T cells. B cells process and present antigens on MHC-II, providing co-stimulatory signals that shape the T cell response.
   - *Significance*: Explains the critical bridge between innate and adaptive immunity.
-  - 🔗 [Download](https://doi.org/10.3389/fimmu.2019.00007) *(search Frontiers in Immunology)*
+  - 🔗 [Download](https://doi.org/10.3389/fimmu.2022.954936)
 
 - **A Synthetic Human 3D In Vitro Lymphoid Model**
   - *Key idea*: Engineered a 3D tissue model recapitulating human lymph node function — B cell zones, T cell zones, and germinal centers. Enables in vitro study of immune responses without animal models.
-  - 🔗 [Download](https://doi.org/10.1038/s41551-020-00613-z) *(search Nature Biomedical Engineering)*
+  - 🔗 [Download](https://doi.org/10.1016/j.isci.2022.105741)
 
 ### Key Concepts
 - **mRNA vaccines** work by delivering instructions for cells to produce the spike protein, triggering both antibody and T-cell responses.
@@ -35,7 +35,7 @@
 
 - **mRNA Targeting Immune Cells** — Review
   - *Key idea*: Reviews strategies for targeting mRNA therapeutics to specific immune cell populations using lipid nanoparticles with cell-type-specific ligands. Different LNP formulations preferentially target dendritic cells, macrophages, or T cells.
-  - 🔗 [Download](https://doi.org/10.1038/s41578-021-00358-0) *(search Nature Reviews Materials)*
+  - 🔗 [Download](https://doi.org/10.3389/fimmu.2023.1294929)
 
 - **Single-Stranded Small Interfering RNA Are More Immunostimulatory Than Double-Stranded** — Sioud, 2006
   - *Key idea*: Discovered that single-stranded siRNAs trigger stronger innate immune responses via TLR7/8 than double-stranded siRNAs. This has implications for both RNA therapeutics (immune side effects) and immunotherapy (deliberate immune activation).
@@ -77,11 +77,11 @@
 
 - **Large-Scale De Novo DNA Synthesis: Technologies and Applications**
   - *Key idea*: Reviews DNA synthesis technologies — from oligonucleotide assembly to enzymatic synthesis. Enables construction of synthetic genes, genomes, and gene circuits.
-  - 🔗 [Download](https://doi.org/10.1016/j.tibtech.2017.10.009) *(search Trends in Biotechnology)*
+  - 🔗 [Download](https://doi.org/10.1038/nmeth.2918)
 
 - **Genomic Variant Identification with Generative AI**
   - *Key idea*: Applied generative AI models to identify and classify genomic variants — distinguishing pathogenic from benign mutations using sequence context and evolutionary conservation.
-  - 🔗 [Download](https://doi.org/10.1038/s41588-024-01743-3) *(search Nature Genetics 2024)*
+  - 🔗 [Download](https://doi.org/10.1093/bib/bbac314)
 
 ### Key Concepts
 - **AlphaFold** transformed biology from sequence → structure prediction. AlphaFold 3 extends to complexes.
@@ -96,15 +96,15 @@
 
 - **Biodistribution of Gold Nanoparticles Synthesized**
   - *Key idea*: Studied how gold nanoparticles distribute in the body after administration — organ accumulation, clearance rates, and size-dependent biodistribution patterns.
-  - 🔗 [Download](https://doi.org/10.1021/nn1014855) *(search ACS Nano)*
+  - 🔗 [Download](https://doi.org/10.1088/2043-6262/5/2/025009)
 
 - **CdTe and CdSe Quantum Dots Synthesis and Characterization**
   - *Key idea*: Synthesis protocols and optical characterization of semiconductor quantum dots — tunable fluorescence from UV to near-IR based on size.
-  - 🔗 [Download](https://doi.org/10.1021/cm0343905) *(search Chemistry of Materials)*
+  - 🔗 [Download](https://doi.org/10.1088/2043-6262/3/4/043001)
 
 - **Inkjet-Printed Unclonable Quantum Dot Fluorescent Anti-Counterfeiting Labels**
   - *Key idea*: Used quantum dots with random printing patterns to create physically unclonable functions (PUFs) for anti-counterfeiting. Each label has a unique fluorescent pattern that cannot be reproduced.
-  - 🔗 [Download](https://doi.org/10.1021/acsnano.8b09052) *(search ACS Nano)*
+  - 🔗 [Download](https://doi.org/10.1038/s41467-019-10406-7)
 
 - **Equalities and Inequalities: Thermodynamics at Nanoscale** — Jarzynski, 2011
   - *Key idea*: Reviews the Jarzynski equality and Crooks fluctuation theorem — relating free energy differences to non-equilibrium work measurements. These statistical mechanics results apply at the nanoscale where thermal fluctuations are significant.
@@ -113,7 +113,7 @@
 
 - **Topological Data Analysis and Biology, Molecules** — Amézquita et al., 2020
   - *Key idea*: Applied persistent homology (TDA) to biological structures — protein shape analysis, molecular surface topology, and plant morphology. Topological features capture shape information that traditional descriptors miss.
-  - 🔗 [Download](https://doi.org/10.1038/s41592-021-01170-6)
+  - 🔗 [Download](https://doi.org/10.1002/dvdy.175)
 
 - **An Introduction to Topological Data Analysis** — Chazal, 2017
   - *Key idea*: Tutorial on persistent homology, Betti numbers, and persistence diagrams. Provides the mathematical foundation for applying TDA to data.

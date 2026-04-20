@@ -14,16 +14,16 @@
 
 - **Exoshuffle: An Extensible Shuffle Architecture** — Luan et al., 2023
   - *Key idea*: Redesigned the shuffle stage of distributed data processing (the most expensive bottleneck in MapReduce/Spark). Achieves 2-3× speedup through better scheduling and data placement.
-  - 🔗 [Download](https://arxiv.org/abs/2203.05003)
+  - 🔗 [Download](https://arxiv.org/abs/2203.05072)
 
 - **DeCaf: Iterative Collaborative Processing over the Edge**
   - *Key idea*: Distributed edge computing framework that splits neural network inference across multiple edge devices, collaboratively processing data closer to the source.
-  - 🔗 [Download](https://doi.org/10.1145/3452296.3472935) *(search SIGCOMM 2021)*
+  - 🔗 [Download](https://www.usenix.org/system/files/hotedge19-paper-kumar.pdf) *(search SIGCOMM 2021)*
 
 - **Straggler-Robust Distributed Optimization in Parameter Server Networks** — Atallah et al., 2021
   - *Key idea*: Addressed slow workers (stragglers) in distributed training using coded computation — adding redundancy so the aggregation can proceed without waiting for all workers.
   - *(Also listed under Federated Learning)*
-  - 🔗 [Download](https://doi.org/10.1109/TSP.2021.3055000)
+  - 🔗 [Download](https://arxiv.org/abs/2108.09173)
 
 ### Key Concepts
 - **Shuffle operations** (redistributing data between map and reduce phases) are the dominant cost in distributed data processing.

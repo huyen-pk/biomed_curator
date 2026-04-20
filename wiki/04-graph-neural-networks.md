@@ -21,11 +21,11 @@ Graph neural networks extend deep learning to non-Euclidean, relational data —
 
 - **Survey on Graph Neural Networks** — Vretos et al., 2024
   - *Key idea*: Updated survey covering recent advances: graph transformers, equivariant GNNs, heterogeneous graphs, and scalability solutions.
-  - 🔗 [Download](https://arxiv.org/abs/2401.02129) *(search arXiv 2024)*
+  - 🔗 [Download](https://doi.org/10.1109/ACCESS.2024.3456913)
 
 - **Graph Neural Networks: A Bibliometric Mapping** — da Silva et al., 2024
   - *Key idea*: Bibliometric analysis of GNN research trends — most active research groups, citation networks, and emerging application domains.
-  - 🔗 [Download](https://doi.org/10.1016/j.neucom.2024.127481) *(search Neurocomputing 2024)*
+  - 🔗 [Download](https://doi.org/10.3390/info15100626)
 
 ### Key Concepts
 - **Message passing**: Nodes aggregate information from neighbors, then update their representations. Repeated for K layers to capture K-hop neighborhoods.
@@ -60,23 +60,23 @@ GNNs are natural fits for biological data — molecular graphs, protein interact
 
 - **Graph Neural Networks for Single-Cell Omics Data** — Li et al., 2025
   - *Key idea*: Applied GNNs to single-cell RNA-seq data, modeling cell-cell similarity graphs for clustering, trajectory inference, and batch correction. GNNs capture the manifold structure of cell populations.
-  - 🔗 [Download](https://doi.org/10.1038/s41592-024-02622-x) *(search Nature Methods 2025)*
+  - 🔗 [Download](https://doi.org/10.1093/bib/bbaf109)
 
 - **scapGNN: Graph Neural Network for Active Pathway and Gene Module Inference** — Han et al., 2023
   - *Key idea*: Built cell-gene bipartite graphs and used GNNs to infer active signaling pathways at single-cell resolution, identifying cell-type-specific pathway activities.
-  - 🔗 [Download](https://doi.org/10.1038/s41467-023-42073-4) *(search Nature Comms 2023)*
+  - 🔗 [Download](https://doi.org/10.1371/journal.pbio.3002369)
 
 - **Group-Derived and Individual Disconnection in Stroke Prognosis: Deep Graph Learning** — Bey et al., 2025
   - *Key idea*: Modeled brain structural disconnection after stroke as graphs, using GNNs to predict patient outcomes from lesion-induced connectivity disruptions.
-  - 🔗 [Download](https://doi.org/10.1093/brain/awae289) *(search Brain 2025)*
+  - 🔗 [Download](https://doi.org/10.1101/2025.07.02.25330753)
 
-- **Fractal and Multifractal Properties of Electrographic Recordings of Human Brain Activity** — França et al., 2017
+- **Fractal and Multifractal Properties of Electrographic Recordings of Human Brain Activity** — França & Wang, 2018
   - *Key idea*: Analyzed the fractal structure of EEG signals, showing that brain activity exhibits multifractal scaling — different temporal scales have different fractal dimensions, reflecting the hierarchical organization of neural dynamics.
   - 🔗 [Download](https://doi.org/10.3389/fphys.2018.01767)
 
 - **Uncovering Insurance Fraud Conspiracy with Network Learning**
   - *Key idea*: Applied graph neural networks to detect fraud rings by learning representations of transaction networks where suspicious patterns emerge from relational structure.
-  - 🔗 [Download](https://arxiv.org/abs/2002.12937) *(search arXiv)*
+  - 🔗 [Download](https://arxiv.org/abs/2002.12789)
 
 ### Key Concepts
 - **Biological graphs** are naturally heterogeneous — gene-gene, protein-protein, cell-cell interactions all have different semantics.

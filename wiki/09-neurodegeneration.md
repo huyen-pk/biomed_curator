@@ -18,7 +18,7 @@ Understanding neurodegenerative disease requires molecular-level knowledge of th
 - **Neurodegenerative Diseases and Prions** — Prusiner
   - *Key idea*: Extended the prion concept to Alzheimer's (Aβ, tau), Parkinson's (α-synuclein), and ALS (SOD1). Proposed that all these diseases involve prion-like propagation of misfolded proteins through neural networks.
   - *Breakthrough*: Unified theory of neurodegeneration — the same protein misfolding mechanism may underlie apparently different diseases.
-  - 🔗 [Download](https://doi.org/10.1056/NEJMra1606774)
+  - ⚠️ No verified link available
 
 - **Functional Prions in the Brain** — Eric Kandel
   - *Key idea*: Discovered that prion-like proteins (CPEB) play a normal physiological role in long-term memory formation. The self-propagating conformational change that maintains synaptic strength uses the same mechanism that causes disease in pathological prions.
@@ -27,7 +27,7 @@ Understanding neurodegenerative disease requires molecular-level knowledge of th
 
 - **Amyloidogenic Nanoplaques**
   - *Key idea*: Nanoscale characterization of amyloid plaques — structure, composition, and formation kinetics at the individual plaque level.
-  - 🔗 [Download](https://doi.org/10.1021/acsnano.5b05535) *(search ACS Nano)*
+  - 🔗 [Download](https://doi.org/10.3233/JAD-200237)
 
 - **Thioflavin T as an Amyloid Dye: Fibril Quantification, Optimal Concentration, and Effect on Aggregation** — Xue et al., 2017
   - *Key idea*: Characterized the biophysics of ThT binding to amyloid fibrils — the standard fluorescence assay for monitoring amyloid aggregation. Optimized protocols for quantitative measurement.
@@ -35,14 +35,15 @@ Understanding neurodegenerative disease requires molecular-level knowledge of th
 
 - **Mitochondrial Links Between Brain Aging and Alzheimer's Disease**
   - *Key idea*: Reviews how mitochondrial dysfunction (oxidative stress, impaired energy metabolism, dysregulated apoptosis) contributes to both normal brain aging and the accelerated neurodegeneration in Alzheimer's.
-  - 🔗 [Download](https://doi.org/10.1016/j.exger.2019.110735) *(search Experimental Gerontology)*
+  - 🔗 [Download](https://doi.org/10.1186/s40035-021-00261-2)
 
 - **Human Microglial State Dynamics in AD Progression**
   - *Key idea*: Characterized the transcriptomic states of microglia (brain immune cells) during Alzheimer's progression — from homeostatic to disease-associated states (DAM). Showed that microglial responses are dynamic and heterogeneous.
-  - 🔗 [Download](https://doi.org/10.1016/j.cell.2021.06.018) *(search Cell)*
+  - 🔗 [Download](https://doi.org/10.1016/j.cell.2023.08.037)
 
 - **Decoding the Complexity of Alzheimer's Disease** — ScienceDaily
   - *Key idea*: Overview of multi-factor Alzheimer's pathology — amyloid cascade, tau propagation, neuroinflammation, vascular contributions, and genetic risk factors (APOE4).
+  - 🔗 [Download](https://www.sciencedaily.com/releases/2023/09/230928151511.htm)
 
 ### Key Concepts
 - **Prion-like propagation** is now considered a unifying mechanism across neurodegenerative diseases. Misfolded proteins spread through neural networks in stereotyped patterns.
@@ -59,11 +60,11 @@ Understanding neurodegenerative disease requires molecular-level knowledge of th
 - **Staging Alzheimer's Disease Risk by Sequencing Brain Function and Structure, CSF, and Cognition Biomarkers**
   - *Key idea*: Proposed an ordering of when different biomarkers become abnormal in AD progression: amyloid PET → CSF tau → structural MRI atrophy → cognitive decline. This staging allows early detection before symptoms appear.
   - *Breakthrough*: Established the temporal cascade of AD biomarkers, enabling presymptomatic diagnosis.
-  - 🔗 [Download](https://doi.org/10.1016/j.jalz.2014.04.015) *(search Alzheimer's & Dementia)*
+  - 🔗 [Download](https://doi.org/10.3233/JAD-160537)
 
-- **Corpus Callosum Shape Changes in Early Alzheimer's Disease** — Ardekani et al., 2014
+- **Corpus Callosum Shape Changes in Early Alzheimer's Disease** — Ardekani et al., 2013
   - *Key idea*: Used the OASIS brain database to show that corpus callosum shape (thinning of specific subregions) is an early marker of AD. Shape analysis is more sensitive than volume alone.
-  - 🔗 [Download](https://doi.org/10.1016/j.brainres.2014.05.046)
+  - 🔗 [Download](https://doi.org/10.1007/s00429-013-0503-0)
 
 - **Cerebrospinal Fluid Biomarker-Supported Diagnosis**
   - *Key idea*: Reviews CSF biomarkers for AD diagnosis — Aβ42 (decreased), total tau (increased), p-tau (increased). CSF biomarkers provide molecular-level evidence complementing imaging.

@@ -26,15 +26,15 @@ VAEs marry probabilistic inference with deep learning, learning a latent space w
 
 - **An Enhanced Conditional VAE-Based Normative Model for Neuroimaging** — Mai Ho, 2025
   - *Key idea*: Extended cVAE for normative modeling of brain data, conditioning on age/sex to model expected brain variation and detect abnormalities as deviations from the learned norm.
-  - 🔗 [Download](https://doi.org/10.1016/j.neuroimage.2025.120976) *(estimated DOI)*
+  - 🔗 [Download](https://doi.org/10.1101/2025.01.05.631276)
 
-- **Stochastic Differential VAE to Model Patient Trajectory** — Hess et al., 2024
-  - *Key idea*: Combined VAEs with stochastic differential equations to model continuous-time patient trajectories, capturing both the latent health state and temporal dynamics of disease progression.
-  - 🔗 [Download](https://arxiv.org/abs/2312.00851) *(search NeurIPS/ICML 2024)*
+- **Bayesian Neural Controlled Differential Equations** — Hess et al., 2024
+  - *Key idea*: Combined Bayesian inference with neural controlled differential equations to model continuous-time patient trajectories, capturing both the latent health state and temporal dynamics of disease progression. Published at ICLR 2024.
+  - 🔗 [Download](https://arxiv.org/abs/2310.17463)
 
-- **Normative Modeling on Alzheimer's with Adversarial Autoencoders** — Walter et al., 2020
+- **Normative Modeling on Alzheimer's with Adversarial Autoencoders** — Pinaya (Walter) et al., 2020
   - *Key idea*: Used adversarial autoencoders (AAE) to learn normative brain aging trajectories, then detected Alzheimer's as deviations. AAEs provide sharper latent distributions than standard VAEs.
-  - 🔗 [Download](https://doi.org/10.1016/j.neuroimage.2020.116610) *(search NeuroImage 2020)*
+  - 🔗 [Download](https://doi.org/10.1101/2020.02.10.931824)
 
 ### Key Concepts
 - The **ELBO** = Reconstruction − KL Divergence: balances faithful reconstruction against latent space regularization.
@@ -106,13 +106,13 @@ Diffusion models have become the dominant generative paradigm, surpassing GANs i
   - *Key idea*: Combined diffusion models with invertible neural networks for MRI compressed sensing reconstruction.
   - 🔗 [Download](https://arxiv.org/abs/2403.17006)
 
-- **Estimating Epistemic Uncertainty in Diffusion Models** — Berry et al., 2024
+- **Shedding Light on Large Generative Networks: Estimating Epistemic Uncertainty in Diffusion Models** — Berry et al., 2024
   - *Key idea*: Developed methods to quantify model uncertainty (epistemic) in diffusion model predictions, distinguishing what the model doesn't know from inherent data noise (aleatoric uncertainty).
-  - 🔗 [Download](https://arxiv.org/abs/2410.12008) *(search NeurIPS 2024)*
+  - 🔗 [Download](https://arxiv.org/abs/2406.18580)
 
-- **Diffusion Normalizing Flow** — Zhang et al., 2024
+- **Diffusion Normalizing Flow** — Zhang, 2021
   - *Key idea*: Hybrid architecture combining the flexible density estimation of normalizing flows with the iterative refinement of diffusion models.
-  - 🔗 [Download](https://arxiv.org/abs/2404.04726)
+  - 🔗 [Download](https://arxiv.org/abs/2110.07579)
 
 - **SynthSeg: Segmentation of Brain MRI Scans on Synthesis Images** — Billot et al., 2023
   - *Key idea*: Trained brain segmentation networks entirely on synthetic images generated from label maps with random contrast/resolution, achieving contrast-agnostic segmentation without retraining.
@@ -136,7 +136,7 @@ Normalizing flows provide exact likelihood computation by learning invertible tr
 - **Density Estimation by Dual Ascent of the Log-Likelihood (Invertible Flows)** — Tabak & Turner, 2010
   - *Key idea*: Proposed learning a sequence of invertible mappings to transform a simple distribution into a complex one, with exact likelihood via the change-of-variables formula.
   - *Breakthrough*: Foundational work establishing normalizing flows as a density estimation framework.
-  - 🔗 [Download](https://doi.org/10.1002/cpa.21423)
+  - ⚠️ No verified link available
 
 - **Density Estimation Using Real-NVP** — Dinh et al., 2017
   - *Key idea*: Introduced affine coupling layers — split dimensions and apply invertible affine transforms, with efficient Jacobian computation. Enabled practical deep normalizing flows.
@@ -171,7 +171,7 @@ GFlowNets (Generative Flow Networks) are a novel class of generative models that
 
 - **GFlowNets for AI-Driven Scientific Discovery** — Jain et al., 2023
   - *Key idea*: Surveyed GFlowNet applications across drug discovery, materials science, and combinatorial optimization. Showed how reward-proportional sampling enables efficient exploration of vast search spaces.
-  - 🔗 [Download](https://arxiv.org/abs/2302.00615)
+  - 🔗 [Download](https://doi.org/10.1039/d3dd00002h)
 
 - **Trajectory Balance for GFlowNets** — Malkin et al., 2023
   - *Key idea*: Introduced the trajectory balance objective which considers complete generation trajectories rather than individual transitions, providing lower-variance gradients and more stable training.
