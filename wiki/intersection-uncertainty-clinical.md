@@ -21,15 +21,15 @@ Standard neural networks output point predictions with no indication of confiden
 
 ### The Methods Stack
 
-1. **Full Bayesian inference** (Gelman et al. textbook): The gold standard — posterior over all parameters. Computationally intractable for deep networks.
+1. **Full Bayesian inference** ([Gelman et al. textbook](http://www.stat.columbia.edu/~gelman/book/)): The gold standard — posterior over all parameters. Computationally intractable for deep networks.
 
-2. **Variational inference** (Blei 2017, Kucukelbir ADVI): Approximate the posterior with a simpler distribution. Scales to deep networks but approximation quality varies.
+2. **Variational inference** ([Blei et al., 2017](https://arxiv.org/abs/1601.00670), Kucukelbir [ADVI](https://arxiv.org/abs/1603.00788)): Approximate the posterior with a simpler distribution. Scales to deep networks but approximation quality varies.
 
-3. **SWAG** (Maddox 2019): Approximates the posterior using SGD trajectory statistics — essentially free, since it uses information already computed during standard training.
+3. **SWAG** ([Maddox et al., 2019](https://arxiv.org/abs/1902.02476)): Approximates the posterior using SGD trajectory statistics — essentially free, since it uses information already computed during standard training.
 
-4. **Posterior Networks** (Charpentier 2020): Predict parameters of an evidence distribution in a single forward pass — no sampling needed at inference time. Maps inputs to Dirichlet distributions for classification.
+4. **Posterior Networks** ([Charpentier et al., 2020](https://arxiv.org/abs/2006.09239)): Predict parameters of an evidence distribution in a single forward pass — no sampling needed at inference time. Maps inputs to Dirichlet distributions for classification.
 
-5. **Deep Langevin dynamics** (Saatçi & Wilson 2017): Use stochastic gradient Langevin dynamics to sample from the true posterior — theoretically grounded but requires careful tuning.
+5. **Deep Langevin dynamics** ([Welling & Teh, 2011](https://icml.cc/2011/papers/398_icmlpaper.pdf) / [Saatçi & Wilson, 2017](https://arxiv.org/abs/1705.09558)): Use stochastic gradient Langevin dynamics to sample from the true posterior — theoretically grounded but requires careful tuning.
 
 ### Application to Healthcare
 
@@ -55,7 +55,7 @@ Standard neural networks output point predictions with no indication of confiden
 
 ## Normative Modeling as Clinical Uncertainty
 
-**Normative models** (Marquand 2019, Kia 2018) reframe clinical diagnosis as uncertainty quantification:
+**Normative models** ([Marquand et al., 2019](https://arxiv.org/abs/1902.04689), [Kia et al., 2018](https://arxiv.org/abs/1811.05943)) reframe clinical diagnosis as uncertainty quantification:
 
 - Train a model of **normal brain variation** as a function of age, sex, and other covariates
 - For a new patient, compute how many standard deviations they fall from the normative trajectory
@@ -63,7 +63,7 @@ Standard neural networks output point predictions with no indication of confiden
 
 **The connection to Bayesian methods**: Gaussian Process normative models directly provide posterior uncertainty. Deep learning normative models (VAEs, AAEs) provide approximate uncertainty through reconstruction error or latent space distances.
 
-**Multi-task GP** (Kia 2018): Models multiple brain regions jointly, capturing correlations. If the hippocampus is atrophied, the entorhinal cortex is likely atrophied too — this correlation **reduces uncertainty** in prediction.
+**Multi-task GP** ([Kia et al., 2018](https://arxiv.org/abs/1811.05943)): Models multiple brain regions jointly, capturing correlations. If the hippocampus is atrophied, the entorhinal cortex is likely atrophied too — this correlation **reduces uncertainty** in prediction.
 
 ---
 
@@ -71,9 +71,9 @@ Standard neural networks output point predictions with no indication of confiden
 
 A model trained on one scanner/population may encounter patients from a different demographic or scanner. OOD detection asks: **is this input from the same distribution as training data?**
 
-- **Energy-based models** (Grathwohl 2020): The model's energy function provides a natural OOD score
-- **WAIC** (Watanabe, Nalisnick 2019): Information criterion that detects OOD by measuring prediction variability across posterior samples
-- **Deep Ensembles** (Lakshminarayanan 2017): Disagreement between ensemble members indicates OOD inputs
+- **Energy-based models** ([Grathwohl et al., 2020](https://arxiv.org/abs/1912.03263)): The model's energy function provides a natural OOD score
+- **WAIC** (Watanabe 2010, [Nalisnick et al., 2019](https://arxiv.org/abs/1810.09136)): Information criterion that detects OOD by measuring prediction variability across posterior samples
+- **Deep Ensembles** ([Lakshminarayanan et al., 2017](https://arxiv.org/abs/1612.01474)): Disagreement between ensemble members indicates OOD inputs
 
 **Critical clinical scenario**: A brain segmentation model trained on young healthy subjects encounters an elderly patient with severe atrophy. Without OOD detection, the model produces a confident but wrong segmentation. With OOD detection, the system flags this case for manual review.
 

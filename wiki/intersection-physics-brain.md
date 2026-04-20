@@ -16,9 +16,9 @@ The brain is a physical system. Neural activity follows differential equations �
 
 ### The Mathematical Foundation
 
-**Neural ODEs** (Chen 2018) parameterize the derivative dz/dt = f_θ(z, t) with a neural network. Instead of discrete layers, the network is a continuous dynamical system solved with ODE integrators.
+**Neural ODEs** ([Chen et al., 2018](https://arxiv.org/abs/1806.07366)) parameterize the derivative dz/dt = f_θ(z, t) with a neural network. Instead of discrete layers, the network is a continuous dynamical system solved with ODE integrators.
 
-**Neural CDEs** (Kidger 2020) extend this to **controlled** differential equations — the input signal drives the dynamics. For brain time series: the observed fMRI/EEG signal controls the latent neural state evolution.
+**Neural CDEs** ([Kidger et al., 2020](https://arxiv.org/abs/2005.08926)) extend this to **controlled** differential equations — the input signal drives the dynamics. For brain time series: the observed fMRI/EEG signal controls the latent neural state evolution.
 
 **Counterfactual Neural CDEs** answer: "How would this patient's brain trajectory have changed under a different treatment?" This connects physics-informed dynamics to **causal inference in neuroscience**.
 
@@ -40,7 +40,7 @@ Deviation = disease - normal: captures pathological acceleration
 
 ## SINDy: Discovering Brain Equations
 
-**Sparse Identification of Nonlinear Dynamical Systems** (Brunton 2016) discovers governing equations from time series data using sparse regression over a library of candidate terms.
+**Sparse Identification of Nonlinear Dynamical Systems** ([Brunton et al., 2016](https://arxiv.org/abs/1512.02385)) discovers governing equations from time series data using sparse regression over a library of candidate terms.
 
 **Applied to neuroscience**: Given fMRI or EEG time series, SINDy can discover:
 - The effective connectivity equations between brain regions
@@ -55,7 +55,7 @@ dx₂/dt = 0.15x₁ - 0.4x₂ + 0.05x₃²
 
 These discovered equations are **interpretable** — each term has a neurobiological meaning (self-decay, excitatory/inhibitory coupling, nonlinear interaction).
 
-**PySR** (Cranmer 2023) provides an alternative approach — symbolic regression that evolves expressions rather than selecting from a fixed library. It might discover coupling terms that SINDy's library doesn't contain.
+**PySR** ([Cranmer, 2023](https://arxiv.org/abs/2305.01582)) provides an alternative approach — symbolic regression that evolves expressions rather than selecting from a fixed library. It might discover coupling terms that SINDy's library doesn't contain.
 
 ---
 
@@ -75,7 +75,7 @@ These discovered equations are **interpretable** — each term has a neurobiolog
 
 **DIMON** (Yin 2024): Learns the solution operator of PDEs — mapping initial conditions to solutions directly, without solving the PDE each time. Orders of magnitude faster than numerical solvers.
 
-**AFNO** (Guibas 2022): Fourier Neural Operator with attention — efficient for high-resolution 3D brain volumes where standard operators struggle with memory.
+**AFNO** ([Guibas et al., 2022](https://arxiv.org/abs/2111.13587)): Fourier Neural Operator with attention — efficient for high-resolution 3D brain volumes where standard operators struggle with memory.
 
 ---
 
@@ -97,8 +97,8 @@ These discovered equations are **interpretable** — each term has a neurobiolog
 Bringing it all together: neurodegeneration can be modeled as a **dynamical system** where:
 
 1. **Prion-like protein spreading** (Prusiner, Kandel) follows a reaction-diffusion PDE on the brain's structural connectome
-2. **Biomarker cascades** (Jack 2013) represent the temporal ordering of the system's state variables
-3. **Normative deviations** (Marquand 2019) measure how far the system has departed from its healthy attractor
+2. **Biomarker cascades** ([Jack et al., 2013](https://doi.org/10.1016/s1474-4422(12)70291-0)) represent the temporal ordering of the system's state variables
+3. **Normative deviations** ([Marquand et al., 2019](https://arxiv.org/abs/1902.04689)) measure how far the system has departed from its healthy attractor
 4. **Neural ODEs** can model the continuous trajectory from health to disease
 
 ```

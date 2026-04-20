@@ -37,7 +37,7 @@ Round t:
 
 **FADL (Federated Autonomous Deep Learning)**: Addresses non-IID by allowing each hospital to maintain a personalized model while still benefiting from collaborative training.
 
-**Brain segmentation across sites**: SynthSeg (Billot 2023) sidesteps the federation problem for segmentation by training on synthetic data — but federated learning is still needed for tasks requiring real clinical labels (diagnosis, prognosis, treatment response).
+**Brain segmentation across sites**: SynthSeg ([Billot et al., 2023](https://arxiv.org/abs/2301.07756)) sidesteps the federation problem for segmentation by training on synthetic data — but federated learning is still needed for tasks requiring real clinical labels (diagnosis, prognosis, treatment response).
 
 ---
 
@@ -57,7 +57,7 @@ Round t:
 
 ## Secure Multi-Party Computation (SMPC) + FL
 
-**Bonawitz et al. (2017)** designed secure aggregation where:
+**Bonawitz et al.** ([2017](https://eprint.iacr.org/2017/281.pdf)) designed secure aggregation where:
 - Each hospital encrypts its model update
 - The server can compute the **aggregate** without seeing any individual update
 - Even if the server is compromised, individual hospital updates remain private
@@ -66,7 +66,7 @@ Round t:
 
 **SMPC for IoMT** (Internet of Medical Things): Extends secure aggregation to edge devices — wearables, continuous monitors, point-of-care devices.
 
-**Cheetah** (Huang 2022): Ultra-fast secure 2-party computation for neural network inference — enabling private prediction where neither the model owner nor the patient reveals their private input.
+**Cheetah** ([Huang et al., 2022](https://www.usenix.org/system/files/sec22-huang-zhicong.pdf)): Ultra-fast secure 2-party computation for neural network inference — enabling private prediction where neither the model owner nor the patient reveals their private input.
 
 **FL-SMPC** combined: The model is trained federally (distributed across hospitals) AND the aggregation is secured cryptographically. This provides both **data locality** and **update privacy**.
 

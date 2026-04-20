@@ -15,14 +15,14 @@ Neuroimaging has been transformed by deep learning more profoundly than perhaps 
 ## From CNNs to Transformers in Brain Analysis
 
 **The first wave** (2015-2019) brought CNNs to neuroimaging:
-- **QuickNAT** (Roy 2019) demonstrated that a fully convolutional network could segment the entire brain in 20 seconds — a task that took FreeSurfer 8 hours.
-- **U-Net architectures** became the standard for brain tumor segmentation, leveraging skip connections to preserve fine anatomical detail.
+- **QuickNAT** ([Roy et al., 2019](https://arxiv.org/abs/1801.04161)) demonstrated that a fully convolutional network could segment the entire brain in 20 seconds — a task that took FreeSurfer 8 hours.
+- **U-Net architectures** ([Ronneberger et al., 2015](https://arxiv.org/abs/1505.04597)) became the standard for brain tumor segmentation, leveraging skip connections to preserve fine anatomical detail.
 - **Brain tumor detection** (BraTS challenges) pushed segmentation accuracy beyond clinical expert agreement.
 
 **The second wave** (2020-present) introduced transformers:
-- **TransMorph** (Chen 2022) applied Swin Transformers to medical image registration, showing that self-attention captures long-range anatomical correspondences that local convolutions miss.
-- **Vision Transformers** (ViT) are being adopted for whole-brain classification tasks where global context matters (e.g., Alzheimer's detection requires integrating information across distant brain regions).
-- **AFNO** (Guibas 2022) brought efficient Fourier-domain attention to high-resolution brain volumes, solving the O(N²) bottleneck of standard attention on 3D medical images.
+- **TransMorph** ([Chen et al., 2022](https://arxiv.org/abs/2111.10480)) applied Swin Transformers to medical image registration, showing that self-attention captures long-range anatomical correspondences that local convolutions miss.
+- **Vision Transformers** (ViT) ([Dosovitskiy et al., 2020](https://arxiv.org/abs/2010.11929)) are being adopted for whole-brain classification tasks where global context matters (e.g., Alzheimer's detection requires integrating information across distant brain regions).
+- **AFNO** ([Guibas et al., 2022](https://arxiv.org/abs/2111.13587)) brought efficient Fourier-domain attention to high-resolution brain volumes, solving the O(N²) bottleneck of standard attention on 3D medical images.
 
 **Key insight**: The brain's **hierarchical, multi-scale structure** (from individual neurons to cortical columns to lobes) maps naturally onto multi-resolution architectures. Transformers' ability to capture long-range dependencies mirrors the brain's own distributed processing.
 
@@ -32,13 +32,13 @@ Neuroimaging has been transformed by deep learning more profoundly than perhaps 
 
 Diffusion models have rapidly become central to neuroimaging:
 
-1. **Anomaly detection** (AnoDDPM, Wyatt 2022): Train a diffusion model on healthy brains, then detect pathology by measuring reconstruction error. The diffusion model learns what "normal" looks like; anything it can't reconstruct is potentially abnormal.
+1. **Anomaly detection** (AnoDDPM, [Wyatt et al., 2022](https://arxiv.org/abs/2202.11589)): Train a diffusion model on healthy brains, then detect pathology by measuring reconstruction error. The diffusion model learns what "normal" looks like; anything it can't reconstruct is potentially abnormal.
 
-2. **Synthetic data generation** (SynthSeg, Billot 2023): Generate unlimited synthetic brain MRIs with known labels to train segmentation models that generalize across all scanners and contrasts. This is arguably the most impactful single application — it solved the domain generalization problem.
+2. **Synthetic data generation** (SynthSeg, [Billot et al., 2023](https://arxiv.org/abs/2301.07756)): Generate unlimited synthetic brain MRIs with known labels to train segmentation models that generalize across all scanners and contrasts. This is arguably the most impactful single application — it solved the domain generalization problem.
 
-3. **Image restoration** (DDNM, Wang 2022): Use pretrained diffusion models to solve inverse problems — super-resolution, denoising, and inpainting of brain scans without task-specific training.
+3. **Image restoration** (DDNM, [Wang et al., 2022](https://arxiv.org/abs/2211.16106)): Use pretrained diffusion models to solve inverse problems — super-resolution, denoising, and inpainting of brain scans without task-specific training.
 
-4. **Compressed sensing MRI** (Chen 2025): Accelerate MRI acquisition by combining diffusion priors with physics constraints, reconstructing full images from undersampled k-space data.
+4. **Compressed sensing MRI** ([Chung et al., 2022](https://arxiv.org/abs/2208.05391)): Accelerate MRI acquisition by combining diffusion priors with physics constraints, reconstructing full images from undersampled k-space data.
 
 **The paradigm shift**: Diffusion models enable a **generative prior** over brain anatomy. Instead of learning task-specific models, a single powerful generative model of "what brains look like" can be adapted to segmentation, anomaly detection, registration, and super-resolution.
 
@@ -48,9 +48,9 @@ Diffusion models have rapidly become central to neuroimaging:
 
 The most intellectually rich intersection connects generative models with clinical neuroscience through **normative modeling**:
 
-- **VAE-based normative models** (Mai Ho 2025, Walter 2020): Learn the distribution of healthy brain variation conditioned on age and sex. Individual patients are evaluated as likelihood under this distribution — low likelihood suggests abnormality.
+- **VAE-based normative models** (Mai Ho 2025, [Pinaya et al., 2021](https://arxiv.org/abs/2104.05372)): Learn the distribution of healthy brain variation conditioned on age and sex. Individual patients are evaluated as likelihood under this distribution — low likelihood suggests abnormality.
 
-- **Gaussian Process normative models** (Marquand 2019, Kia 2018): Provide exact uncertainty quantification but struggle with high dimensionality. The shift to deep learning normative models (VAEs, adversarial autoencoders) trades interpretability for scalability.
+- **Gaussian Process normative models** ([Marquand et al., 2019](https://arxiv.org/abs/1902.04689), Kia 2018): Provide exact uncertainty quantification but struggle with high dimensionality. The shift to deep learning normative models (VAEs, adversarial autoencoders) trades interpretability for scalability.
 
 - **Stochastic differential VAEs** (Hess 2024): Model patient trajectories as continuous-time processes in latent space — capturing disease progression dynamics, not just static snapshots.
 

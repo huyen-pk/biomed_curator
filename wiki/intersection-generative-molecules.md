@@ -14,7 +14,7 @@ Drug discovery, protein engineering, and materials science share a common challe
 
 ## VAEs: The First Generation of Molecular Generators
 
-**Gómez-Bombarelli et al. (2017)** launched the field by encoding molecules (as SMILES strings) into a continuous latent space using a VAE, then optimizing in that latent space for desired properties (drug-likeness, solubility, synthetic accessibility).
+**Gómez-Bombarelli et al.** ([2018](https://arxiv.org/abs/1610.02415)) launched the field by encoding molecules (as SMILES strings) into a continuous latent space using a VAE, then optimizing in that latent space for desired properties (drug-likeness, solubility, synthetic accessibility).
 
 **Why this matters**: Chemistry operates in a discrete space (atoms and bonds). VAEs transform this into a continuous manifold where gradient-based optimization becomes possible. Instead of testing molecules one by one, you can smoothly navigate chemical space.
 
@@ -29,17 +29,17 @@ Drug discovery, protein engineering, and materials science share a common challe
 2. Patent landscapes require alternatives
 3. Multi-objective design has a Pareto frontier, not a single best
 
-**GFlowNets** (Bengio 2021, Jain 2022, 2023) solve this by sampling proportionally to reward — generating diverse high-quality candidates rather than collapsing to a single mode.
+**GFlowNets** ([Bengio et al., 2021](https://arxiv.org/abs/2106.04399), [Jain et al., 2022](https://arxiv.org/abs/2203.04115)) solve this by sampling proportionally to reward — generating diverse high-quality candidates rather than collapsing to a single mode.
 
-**Application to molecules** (Jain 2023): GFlowNets discovered diverse small molecules for biological targets, outperforming RL and Bayesian optimization in both quality and diversity of candidates.
+**Application to molecules** ([Jain et al., 2023](https://arxiv.org/abs/2302.04040)): GFlowNets discovered diverse small molecules for biological targets, outperforming RL and Bayesian optimization in both quality and diversity of candidates.
 
-**Ant Colony GFlowNets** (Rektoris 2024): Combined swarm intelligence with GFlowNets for combinatorial optimization — populations of agents explore solution space collaboratively, discovering diverse solutions.
+**Ant Colony GFlowNets** ([Rektoris et al., 2024](https://arxiv.org/abs/2402.13848)): Combined swarm intelligence with GFlowNets for combinatorial optimization — populations of agents explore solution space collaboratively, discovering diverse solutions.
 
 ---
 
 ## AlphaFold: Structure Prediction Meets Generative Design
 
-**AlphaFold 2** (Jumper 2021) solved protein structure prediction. **AlphaFold 3** (Abramson 2024) extended to protein-ligand complexes.
+**AlphaFold 2** ([Jumper et al., 2021](https://doi.org/10.1038/s41586-021-03819-2)) solved protein structure prediction. **AlphaFold 3** ([Abramson et al., 2024](https://doi.org/10.1038/s41586-024-07487-w)) extended to protein-ligand complexes.
 
 **The design loop** is now:
 ```
@@ -72,7 +72,7 @@ Diffusion models' success in images has inspired molecular diffusion:
 
 ## Topological Data Analysis as a Bridge
 
-**Amézquita et al. (2020)** applied persistent homology to biological structures, revealing that:
+**Amézquita et al.** ([2020](https://doi.org/10.1038/s42254-020-0260-y)) applied persistent homology to biological structures, revealing that:
 - **Protein shapes** have topological features (tunnels, cavities, voids) that correlate with function
 - **Molecular surfaces** can be characterized by their Betti numbers — a more robust descriptor than geometric features
 

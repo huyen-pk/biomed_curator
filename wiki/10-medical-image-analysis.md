@@ -28,29 +28,6 @@
 
 ---
 
-## Prostate Cancer Detection
-
-### Papers
-
-- **Deep Learning for Fully Automatic Detection, Segmentation, and Gleason Grade Estimation of Prostate Cancer**
-  - *Key idea*: End-to-end pipeline from MRI to Gleason grade — detects suspicious regions, segments them, and estimates cancer aggressiveness. Combines detection (classification), segmentation (pixel-level), and grading (ordinal regression).
-  - 🔗 [Download](https://doi.org/10.1038/s41598-022-06730-6)
-
-- **A Transfer Learning Nomogram for Predicting Prostate Cancer and Benign Conditions on MRI**
-  - *Key idea*: Used transfer learning from ImageNet to build a nomogram combining DL features with clinical variables (PSA, age) for prostate cancer prediction.
-  - 🔗 [Download](https://doi.org/10.1186/s12880-023-01163-7)
-
-- **Searching for Prostate Cancer by Fully Automated MRI Classification: Deep Learning vs. Non-Deep Learning**
-  - *Key idea*: Head-to-head comparison of DL and traditional ML (SVM, RF) for prostate cancer classification from MRI. DL consistently outperforms traditional methods, especially with multi-parametric MRI.
-  - 🔗 [Download](https://doi.org/10.1038/s41598-017-15720-y)
-
-### Key Concepts
-- Prostate cancer diagnosis requires **multi-parametric MRI** (T2w, DWI, DCE) — each sequence provides complementary information.
-- **Gleason grading** (cancer aggressiveness) from imaging is particularly valuable as it avoids invasive biopsy.
-- Combining **DL features with clinical variables** (nomograms) improves upon either alone.
-
----
-
 ## Domain Generalization & Transfer Learning
 
 ### Papers
